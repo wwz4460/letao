@@ -1,13 +1,78 @@
-/*µ¼º½À¸*/
-.lt_nav{
-    margin-top: 10px;
-    padding: 0 10px;
-}
-.lt_nav a{
-    float: left;
-    width: 33.3333%;
-}
-.lt_nav a img{
+/*è½®æ’­å›¾*/
+.lt-container main .mui-slider img {
     width: 100%;
     display: block;
+}
+
+/*å¯¼èˆªæ */
+.lt-container main .lt-nav {
+    width: 100%;
+    padding: 10px;
+}
+
+.lt-container main .lt-nav ul li {
+    width: 33.333333%;
+    float: left;
+}
+
+.lt-container main .lt-nav ul li a {
+    width: 100%;
+}
+
+.lt-container main .lt-nav ul li a img {
+    width: 100%;
+    display: block;
+
+}
+
+/*å•†å“*/
+.lt-container main .lt-product {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.lt-container main .lt-product a {
+    width: 48%;
+    display: block;
+    box-shadow: 0 0 3px #ccc;
+    margin-bottom: 10px;
+    float: left;
+
+}
+.lt-container main .lt-product a:nth-of-type(2n){
+    margin-left:4%;
+}
+
+.lt-container main .lt-product a img {
+    width: 100%;
+    display: block;
+}
+.lt-container main .lt-product a p {
+    text-align: center;
+}
+
+.lt-container main .lt-product a p:first-of-type {
+    font-size: 14px;
+    padding: 0 4px;
+    color: #007aff;
+}
+
+.lt-container main .lt-product a p span {
+    font-size: 12px;
+}
+
+.lt-container main .lt-product a p span:first-of-type {
+    color: red;
+}
+.lt-container main .lt-product a p span:last-of-type {
+    text-decoration: line-through;
+}
+.lt-container main .lt-product a button {
+    border: 0;
+    background-color: #007aff;
+    color: #fff;
+    display: block;
+    margin:10px auto;
+
+
 }

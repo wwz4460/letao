@@ -1,0 +1,61 @@
+.lt-cateLeft {
+    width: 90px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.lt-cateLeft ul {
+    width: 100%;
+
+}
+
+.lt-cateLeft ul li {
+    height: 50px;
+    width: 100%;
+    line-height:50px;
+    text-align: center;
+    background-color: #f3f4f5;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+.lt-cateLeft ul li a {
+    display: block;
+    color: #333;
+    font-size: 14px;
+}
+
+.lt-cateLeft .now {
+    background-color: #fff;
+    color: orange;
+    border-right-color: #fff;
+}
+.lt-cateLeft .now a {
+    color: orange;
+}
+
+    /*//右边内容*/
+ .lt-cateRight {
+     height: 100%;
+     overflow: hidden;
+ }
+.lt-cateRight ul {
+    width: 100%;
+}
+.lt-cateRight ul li {
+    width: 100%;
+}
+.lt-cateRight ul li a {
+    width: 33.3333333%;
+    display: block;
+    padding: 10px 5px;
+    float: left;
+}
+.lt-cateRight ul li a img {
+    width: 100%;
+    display: block;
+}
+.lt-cateRight a p {
+    text-align: center;
+}
